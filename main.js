@@ -91,6 +91,9 @@ async function login() {
   }
   if (verifyData.verified) {
     showModalText(`Successfully logged in ${email}`)
+    setTimeout(() => {
+      window.location.href = "https://webauthn-django.onrender.com/send-otp"; // Your redirect URL
+    }, 2000);
   } else {
     showModalText(`Failed to log in`)
   }
