@@ -10,7 +10,7 @@ signupButton.addEventListener("click", signup)
 loginButton.addEventListener("click", login)
 closeButton.addEventListener("click", () => modal.close())
 
-const SERVER_URL = "https://webauthn-node-zg2k.onrender.com0"
+const SERVER_URL = "https://webauthn-node-zg2k.onrender.com"
 // const SERVER_URL="https://figerprint-auther-backend.onrender.com"
 
 async function signup() {
